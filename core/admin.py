@@ -1,3 +1,4 @@
-from django.contrib import admin
+from django.contrib import admin #Import the admin
+from models import todo #Import our todo Model.
 
-# Register your models here.
+admin.site.register(todo) #Register the model with the admin

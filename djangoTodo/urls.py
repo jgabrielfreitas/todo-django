@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+import djangoTodo.core
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', core.views.index), #Our index page, it maps to / . Once the page is called it will look in /todo/core/views.py for a function called index
 ]
