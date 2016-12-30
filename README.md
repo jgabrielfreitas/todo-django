@@ -1,6 +1,17 @@
 # todo-django
 Django Todo-List application
 
+### Run server
+To run the server, please execute the following:
+
+```
+$ pip install Flask # install Flask (microframework for Python)
+$ cd flask-server
+$ python app.py
+```
+
+**This app was tested using Genymotion**
+
 ##### LICENSE
 ```
 MIT License
