@@ -1,2 +1,0 @@
-tutorial I'm following: 
-https://code.tutsplus.com/articles/intro-to-django-building-a-to-do-list--net-2871 
